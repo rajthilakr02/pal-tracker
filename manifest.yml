@@ -5,4 +5,4 @@ applications:
   routes:
   - route: paltrackerreview.apps.pikes.pal.pivotal.io
   env:
-    message: Hello from the review environment.
+    message: Hello from the review environment
