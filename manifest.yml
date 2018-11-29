@@ -1,0 +1,8 @@
+---
+applications:
+- name: pal-tracker-201928
+  path: build/libs/pal-tracker.jar
+  routes:
+  - route: paltracker.apps.pikes.pal.pivotal.io
+  env:
+    message: Hello from the review environment.

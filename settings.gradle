@@ -1,12 +1,1 @@
-plugins {
-    id "java"
-    id "org.springframework.boot" version "1.5.4.RELEASE"
-}
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web")
-}
+rootProject.name = "pal-tracker"
