@@ -11,7 +11,7 @@ db_username=`echo $credentials | jq -r '.username'`
 db_password=`echo $credentials | jq -r '.password'`
 
 echo "Opening ssh tunnel to $ip_address"
-cf ssh -N -L 63306:$ip_address:3306 pal-tracker &
+cf ssh -N -L 63306:$ip_address:3306 pal-tracker-201928 &
 cf_ssh_pid=$!
 
 echo "Waiting for tunnel"
